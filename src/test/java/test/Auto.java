@@ -19,9 +19,9 @@ public class Auto{
 
             }
 
-            return(contador);
+            
         }
-
+        return contador;
 
 
     }
