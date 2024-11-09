@@ -11,7 +11,7 @@ public class Motor{
         if (cambio=="electrico") {
             this.tipo=cambio;
 
-        }else if (cambio="gasolina") {
+        }else if (cambio=="gasolina") {
             this.tipo=cambio;
         }
         

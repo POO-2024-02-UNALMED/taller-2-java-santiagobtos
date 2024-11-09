@@ -30,7 +30,7 @@ public class Auto{
             int o=motor.registro;
             for(int i=0; i< this.asientos.length; i++){
                 if (this.asientos[i] != null ) {
-                    if (this.asientos.registro[i]==o) {
+                    if (this.asientos[i].registro==o) {
                         return "Auto original";
                 
                     
