@@ -37,12 +37,12 @@ public class Auto{
                     }else{
                         return "Las piezas no son originales";
                     }
-                    
-                }else{
-                    return "Las piezas no son originales";
+                
                 }
             }
             
+        }else{
+            return "Las piezas no son originales";
         }
     }
         
