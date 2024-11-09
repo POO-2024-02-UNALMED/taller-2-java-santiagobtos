@@ -1,6 +1,6 @@
 package test;
 public class Asiento{
-    string color;
+    String color;
     int registro;
     int precio;
     void cambiarColor(string colo){

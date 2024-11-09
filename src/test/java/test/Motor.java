@@ -1,7 +1,7 @@
 package test;
 public class Motor{
     int numeroCilindros;
-    string tipo;
+    String tipo;
     int registro;
     void cambiarRegistro(int numero){
         this.registro=numero;
@@ -13,9 +13,8 @@ public class Motor{
 
         }else if (cambio="gasolina") {
             this.tipo=cambio;
-        }else{
-            this.tipo=this.tipo;
         }
+        
         
     }
 }

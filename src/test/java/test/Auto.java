@@ -3,13 +3,13 @@ package test;
 
 
 public class Auto{
-    string modelo;
+    String modelo;
     int precio;
     Asiento[] asientos;
-    string marca;
+    String marca;
     Motor motor;
     int registro;
-    static string cantidadCreados;
+    static String cantidadCreados;
     int cantidadAsientos(){
         int contador=0;
         for(int i=0; i< this.asientos.length; i++){
