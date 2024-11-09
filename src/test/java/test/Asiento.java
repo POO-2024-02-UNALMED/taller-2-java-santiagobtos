@@ -3,22 +3,23 @@ public class Asiento{
     String color;
     int registro;
     int precio;
-    void cambiarColor(string colo){
+    void cambiarColor(String colo){
         switch (colo) {
-            case 1: colo= "rojo";
+            case "rojo":
                 this.color="rojo";
                 break;
-            case 2: colo= "verde";
+            case  "verde":
                 this.color="verde";
-            case 3: colo= "negro";
+                break;
+            case "negro":
                 this.color="negro";
-            case 4: colo= "blanco";
+                break;
+            case "blanco":
                 this.color="blanco";
-            case 5: colo= "amarillo";
+                break;
+            case  "amarillo":
                 this.color="amarillo";
-            
-            
-        
+                break;
             default:
                 break;
         }

@@ -7,7 +7,7 @@ public class Motor{
         this.registro=numero;
 
     }
-    void asignarTipo(string cambio){
+    void asignarTipo(String cambio){
         if (cambio=="electrico") {
             this.tipo=cambio;
 
